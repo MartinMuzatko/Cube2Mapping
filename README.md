@@ -89,18 +89,20 @@ First of all: it is about mathematics. You can jump a specific height, run at a 
 
 We just cover the things here, that a layout should only contain before getting into detail.
 
-Stairs/Ramps,
-Podests,
-Jumppads,
-Dropoffs,
-Teleports,
-Obstacles or Stuff to hide (TO AVOID)
-Terrain,
-Others: Ladders, Ropes, 
+* Stairs/Ramps
+* Podests
+* Jumppads
+* Dropoffs
+* Teleports
+* Obstacles or Stuff to hide (TO AVOID)
+* Terrain
+* Others: 
+    * Ladders
+    * Ropes 
 
 These define a multiple of 
-Open Areas,
-Hallways,
+Open Areas
+Hallways
 
 ##Go with the flow
 
@@ -111,11 +113,16 @@ He showed me that I should place things in the way where the player would walk n
 
 The worst thing how you could get started is to create yourself a border. Basically a /newmap will already give you a box-shaped place to edit so what should we do? First: You never know how big a map could possibly become. This is what a lot of beginners are not capable of: expanding when they need to. Most newbies will happily work within the same border without ever emerging to greater layouts whenever it would fit. Again: it is not about how big it is, but think out of the box when you see how things could be done. Most try to work within a boxshaped map and do not dare to break through these walls, even if it would go with the gameflow. It takes some creativity to get started and there are several methods to start with nothing.
 
-Do not have your layout necessarely bound to a specific theme. If you plan to do, for example an egypt map, think about how fitting would be a clichee like a pyramid, but it wont really be playable if you just place a few pyramids. Which is why we choose to think about the theme later, even if there are some typical elements for specific themes. It is good to know them but right now they are not helping us to create something playable. Create yourself a set of stairs and place it somewhere, add Even if you try to start out small, you got to begin somewhere. 
+Do not have your layout necessarely bound to the theme, if you plan to do, for example an egypt map, think about how fitting would be a clichee like a pyramid, but it wont really be playable if you just place a few pyramids.
+
+Which is why we choose to think about the theme later, even if there are some typical elements for specific themes. It is good to know them but right now they are not helping us to create something playable.
+
+Create yourself a set of stairs and place it somewhere, add
+
+Even if you try to start out small, you got to begin somewhere. 
 
 
 ---
-Sidenotes for later:
 List of smart placed trickjumps w/o rewards.
 
 Healthboost under a level, you got to die to get it.
