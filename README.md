@@ -18,6 +18,8 @@ Text Only Planning of Cube2Mapping Vol2
     * Building on the grid
     * The building blocks of layouts
     * Go with the flow
+    * Where to start?
+    * Purpose
 
 4. Audiovisuals
     * Architecture
@@ -142,7 +144,22 @@ Is it a factory? powerplant? graveyard? Think how you can combine them and what 
 Think how you can replace some of the above noted building-blocks with theme oriented elements.
 A platform could turn into a scaffolding for an industrial theme. A jumppad could be indicated by some particles with an energy source nearby to indicate that its not just a jumppad for the sake of having a jumppad. You get what I mean. Thats something you can keep in mind before we burry the topic for a while again.
 
-##
+
+#4. Audiovisuals
+
+This chapter covers the aesthetic aspects of your work. This is actually the part where you create a world your player can believe in. That shows that it is not just an artificial world.
+This is also the part where we re-excavate the theme topic and dig into it a bit further.
+
+## Architecture
+
+There are some obvious basics to arcitecture.
+Only if it is possible to build, there should be reasonable support for ceilings like pillar. Walls that can hold the things that are above. Terrain that can actually hold itself.
+
+
+    * Architecture
+    * Immersion
+        * Theme - The look and feel
+        * Sound
 
 
 
