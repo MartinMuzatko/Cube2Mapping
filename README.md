@@ -56,30 +56,19 @@ If you are not familiar with how to handle cube formations and you got no workfl
 This belongs partially to chapter three - Layout.
 There are different cubesizes which you can use for different tasks.
 
-0
-1
-2 - Details (Rims, Planks, etc)
-3 - Architecture
-4 - Layout, Terrain
-5 - Layout, Terrain
-6
+* 0
+* 1
+* 2 - Details (Rims, Planks, etc)
+* 3 - Architecture
+* 4 - Layout, Terrain
+* 5 - Layout, Terrain
+* 6
 
 Another few important metrics:
 
-4	playerheight, jumpheight
-5	rifle trickjump
-6.5	Maximum jump range
-
-
-	2	Kanten, Geländer und Planken
-		Größte ersteigbare Stufengröße
-	3	Kanten, Geländer, Balken, Lichter
-	4	Kisten, Spielergröße, Terraindetail
-		Sprunghöhe, Lichter
-	5	Plattformen, Terrain, Segment,
-		Sniper-TricksprungHöhe
-	6	Stiegensegment, Plattformen
-	6.5	Sprungweite
+* 4	playerheight, jumpheight
+* 5	rifle trickjump
+* 6.5	Maximum jump range
 
 ##Know your limits - WTR
 
