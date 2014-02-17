@@ -49,7 +49,9 @@ I will not tell you the very basics how to work with Cube2, this guide is for in
 
 ##Get used to the cube
 
-If you are not familiar with how to handle cube formations and you got no workflow in texturizing
+You should grasp the basic concept of editing before you move on with the advanced stuff. There is not much needed to create an appealing deathmatch map. At least you do not have to be the greatest cube-bender of all times to make a map flowy. Simple blocks for platforms and stairs are often enough for a deathmatch map, to be fun to play.
+
+Having an idea about the different entities in Cube2 is also important.
 
 ##Different sizes - use them
 
@@ -142,7 +144,7 @@ This is also the part where we re-excavate the theme topic and dig into it a bit
 ## Architecture
 
 There are some obvious basics to arcitecture.
-Only if it is possible to build, there should be reasonable support for ceilings like pillar. Walls that can hold the things that are above. Terrain that can actually hold itself.
+Only if it is possible to build, there should be reasonable support for ceilings like pillars. Walls that can hold the things that are above. Terrain that can actually hold itself.
 
 
     * Architecture
