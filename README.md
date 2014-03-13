@@ -171,7 +171,7 @@ I chose Terrain to be an extra chapter in Audiovisuals, to cover the more advanc
  
 **Smaller components:**
  - Boulders and Rocks
- - Stalacmites
+ - Stalagmites
  - Stalactites
 
 Unfortunately, terrain is rather tough to create. Even if you are a skilled mapper, it takes a few hours to bevel out a whole map. Because of this, most of the mappers decide to keep it simple. Which is why almost every terrain in Cube2 is eroded (flat). There are no pointy rocks or bolders, just flat terrain that nuzzels and wraps around the buildings. Our goal is to create appealing terrain that fits the theme.
