@@ -58,19 +58,19 @@ Having an idea about the different entities in Cube2 is also important.
 This belongs partially to chapter three - Layout.
 There are different cubesizes which you can use for different tasks.
 
-* 0
-* 1
-* 2 - Details (Rims, Planks, etc)
-* 3 - Architecture
-* 4 - Layout, Terrain
-* 5 - Layout, Terrain
-* 6
+- 0
+- 1
+- 2 - Details (Rims, Planks, etc)
+- 3 - Architecture
+- 4 - Layout, Terrain
+- 5 - Layout, Terrain
+- 6
 
 Another few important metrics:
 
-* 4	playerheight, jumpheight
-* 5	rifle trickjump
-* 6.5	Maximum jump range
+- 4	playerheight, jumpheight
+- 5	rifle trickjump
+- 6.5	Maximum jump range
 
 ##Know your limits - WTR
 
@@ -100,16 +100,16 @@ Building on the grid also saves you WTR. You can see them in the lower left corn
 
 We just cover the things here, that a layout should only contain before getting into any further detail.
 
-* Stairs/Ramps
-* Platforms
-* Jumppads
-* Dropoffs (One-Way Platform to Platform)
-* Teleports
-* Obstacles or Stuff to hide behind (Pillars, Crates)
-* Terrain
-* Others: 
-    * Ladders
-    * Ropes 
+ Stairs/Ramps
+ Platforms
+ Jumppads
+ Dropoffs (One-Way Platform to Platform)
+ Teleports
+ Obstacles or Stuff to hide behind (Pillars, Crates)
+ Terrain
+ Others: 
+    - Ladders
+    - Ropes 
 
 These aspects all define a map, and how it will play. Each factor and element of a map, is attributed to how the end product will function, therefore is an attribute of your map. Putting these elements together and make them play nice needs a bit of creativity. Combining the above will create either a labyrinth or open-area type of map.
 
@@ -143,7 +143,70 @@ This is also the part where we re-excavate the theme topic and dig into it a bit
 ## Architecture
 
 There are some obvious basics to arcitecture.
-Only if it is possible to build, there should be reasonable support for ceilings like pillars. Walls that can hold the things that are above. Terrain that can actually hold itself.
+Only if it is possible to build, there should be reasonable support for ceilings like pillars. Walls that can hold the things that are above. Terrain that can actually hold itself. in this 
+
+## Immersion
+
+Immersion is one of the most important concepts in every leveldesign. If your surroundings are not believed by the player, you do a bad job. This means that most flowing map is still fun to play, but it doesn't look real. After you have chosen the right theme and context, your only goal is to not corrupt the current existing layout with details. Cluttering the layout with details that render previous existing jump or walkpaths unflowing, will result in a mess for the player. So balancing out layout and design is a tough task. Overusing clip and no-clip will not fix a flawed layout.
+So here is what you can do to immerse the player into your world:
+
+### let your worldborder vary in height and material
+If you have a flat ceiling, add some open spaces inbetween and vary in height. Nobody is getting there anyway. Unless it is the ceiling between the current and the next floor, feel free to add holes where light can come from and to make the skybox appear more often. This applies specially to rather closed maps. If you have a rather small but open DM map, try to add a lot of diversity to the walls, make them half terrain-half metal/brick/whatever so you can add some variation. Additionally you can vary in depth, height and material. Adding a watterfall as long it plays nice with the layout works too.
+
+### Less surface detail on floors.
+As long it is subtle enough, so it does not interfere with the flow, you can add details on the floor. Mainly rims and missing tiles and different textures on the floor where it is convenient. Adding holes to the floor with grills over them will make a nice underground detail.  Walls are fine, as long you don't get stuck in them. The ceiling is (if high enough) where you can put all of the details. For the terrain, it is rather the opposite. The floor is as smooth as possible, whereas the higher the wall/cliff, the more bulky you get on the top.
+
+## Terrain
+
+I chose Terrain to be an extra chapter in Audiovisuals, to cover the more advanced techniques to create immersive terrain. Lets point out the possibilities we have:
+
+### What does terrain include?
+
+**Larger components:**
+ - Caves
+ - Cliffs
+ - Hills
+ - Slopes
+ - Ravine
+ 
+**Smaller components:**
+ - Boulders and Rocks
+ - Stalacmites
+ - Stalactites
+
+Unfortunately, terrain is rather tough to create. Even if you are a skilled mapper, it takes a few hours to bevel out a whole map. Because of this, most of the mappers decide to keep it simple. Which is why almost every terrain in Cube2 is eroded (flat). There are no pointy rocks or bolders, just flat terrain that nuzzels and wraps around the buildings. Our goal is to create appealing terrain that fits the theme.
+
+### A few examples
+
+**Egyptian/Desertlike/Orient**
+Sand can be rather wavy and create hills, but very smooth. If you know places like the petra, you know that there are places with very rough cliffs and pointy bolders lying around. Bolders can also stack up to form towers. There are also special forms of structures often associated with desert environments: arches made out of rocks and steep plateaus. Google for Mesa geology to get your inspiration started.
+
+Starred content with that theme: flagstone by Nieb
+
+**Forest/Grassland/Mountains**
+
+The most typical environment. Everyone imagines a sunny day with a nice forest and some wellrounded mountains. You want to try to turn these 0815 maps into something different. river_c is an exceptional example. With less trees, but significant elements like cliffs and there is a lot of change in height. Always use together with a lot of vegetation.
+
+**Snowstorm/Ice**
+
+An appealing theme that requires a bit of detailwork. You have less vegetation here. Try to fit the clichée of winter environment and add spruce trees as example. dead bushes and a few flowers are also allowed, depending on how severe the winter is/was. 
+
+**Beach/Jungle**
+
+Beach environments are commonly combined with a grassland or jungle landscape. Comparable to the desert, a beach can include rocks and boulders combined with slopes. 
+
+
+### Other Examples
+
+ - Swamp
+ - Jungle
+ - Taiga
+ - Ocean
+
+
+## Vegetation
+
+Everything thats green or resembles nature in any way gos here. 
 
 
     * Architecture
