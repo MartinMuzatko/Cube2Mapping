@@ -116,7 +116,7 @@ These aspects all define a map, and how it will play. Each factor and element of
 
 ##Go with the flow
 
-This is something a guy called Redon teached me, and later on reread in a book called "the hows and whys of level design". When I was not quite sure about my first released map called Arabic I consulted Redon.
+This is something a guy called Redon (A great contributor to the community) taught me, and later on reread in a book called "the hows and whys of level design". When I was not quite sure about my first released map called Arabic I consulted Redon.
 He showed me that I should place things in the way where the player would walk or jump next. This sounded a bit unreasonable yet because I thought that I want to challenge the player a bit where he got to hide or place his foots. However, I found out very fast that having the ability to expect how the layout will go, will increase the fun in playing it. Getting stuck in crates or other nonsense will kill the fun in playing your hard work. Flow is what you call when you run and jump without bumping into walls. Make sure to playtest every bit of your layout whenever you add something to it!
 
 ##Where to start?
