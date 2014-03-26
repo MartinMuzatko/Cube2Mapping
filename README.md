@@ -179,6 +179,7 @@ Unfortunately, terrain is rather tough to create. Even if you are a skilled mapp
 ### A few examples
 
 **Egyptian/Desertlike/Orient**
+
 Sand can be rather wavy and create hills, but very smooth. If you know places like the petra, you know that there are places with very rough cliffs and pointy bolders lying around. Bolders can also stack up to form towers. There are also special forms of structures often associated with desert environments: arches made out of rocks and steep plateaus. Google for Mesa geology to get your inspiration started.
 
 Starred content with that theme: flagstone by Nieb
@@ -206,7 +207,7 @@ Beach environments are commonly combined with a grassland or jungle landscape. C
 
 ## Vegetation
 
-Everything thats green or resembles nature in any way gos here. 
+Everything thats green or resembles nature in any way goes here. 
 
 
     * Architecture
