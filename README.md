@@ -35,25 +35,31 @@ Text Only Planning of Cube2Mapping Vol2
 
 #1. Introduction
 
-##What the heck is this all about?
+## What the heck is this all about?
 
-This book/guide/tutorial is about turning you into a level designer. People also prefer to say "Mapper" because in comparison, Cube2 aka 'Sauerbraten' does not come with as much features as Unreal Developer Kit or Farcry does. But Cube2 has his own idea of fun. What makes Sauerbraten so famous is its way to create worlds together. Its Cooperative editmode, where you can create stuff simultaneously is useful for being creative together. However, level design is not only a hobby, it is an occupation. All information you find in this guide may applied on other games, I will  always include all essential information about how it's done in Cube2, and what about other games. The focus mainly relies on Cube2:Sauerbraten
+This book/guide/tutorial is dedicated to turning you into a professional level designer and showing you a lot of things to take care about when creating your first levels. This guide is also geared towards professionals to learn something new to extend your horizon.  
 
-This book will cover all the little secrets that you may wonder about: Why do some maps get played, others not? How are some levels fun while others are not fun to play? And in the end, why do some levels get into the next release and some not? Quadropolis.us is, a good place to start. It is a platform to rate and discuss about maps. If you think you got good material, thats the place to go.
+This guide is dedicated to simple Level Design games, like Cube2, Minecraft or similar. Creating something awesome with just a few easy-to-grasp tools is the goal here.
 
-##What are the requirements?
+What makes these games so popular is its way of creating worlds together. All information you find in this guide may be applied on other games similar to Cube2 or Minecraft. In this guide I mainly focus on Cube2.
+
+This book will cover all the little secrets that you may wonder about: How can a few small additions greatly add to the world. How come that some levels are fun, while others are not fun to play? 
+
+To get an idea how you are doing, feel free to ask Quadropolis.us. It is a nice platform to rate and discuss maps.
+
+## What are the requirements?
 
 I will not tell you the very basics how to work with Cube2, this guide is for intermediate to expert creators. You should know your entities, how to modify them. How to texturize cubes and the different cubesizes. In the first chapter I will explain a few not so well known details about the cube. You will also need a lot of patience, as you need to get a feeling for whats good and whats not good to play.
 
-#2. Octal Editor 
+# 2. Octal Editor 
 
-##Get used to the cube
+## Get used to the cube
 
 You should grasp the basic concept of editing before you move on with the advanced stuff. There is not much needed to create an appealing deathmatch map. At least you do not have to be the greatest cube-bender of all times to make a map flowy. Simple blocks for platforms and stairs are often enough for a deathmatch map, to be fun to play.
 
 Having an idea about the different entities in Cube2 is also important.
 
-##Different sizes - use them
+## Different sizes - use them
 
 This belongs partially to chapter three - Layout.
 There are different cubesizes which you can use for different tasks.
@@ -68,13 +74,11 @@ There are different cubesizes which you can use for different tasks.
 
 Another few important metrics:
 
-- 4	playerheight, jumpheight
-- 5	rifle trickjump
-- 6.5	Maximum jump range
+- 4 - playerheight, jumpheight
+- 5 - rifle trickjump height
+- 6.5 - Maximum jump range
 
-##Know your limits - WTR
-
-#3. Layout
+# 3. Layout
 
 Creating a layout is the first step for beginning a project. You maybe have already an elaborate idea in beforehand about the theme, look or feel of the map. But this is not mandatory, most of the maps need only a tin impulse of an idea to get started.
 
@@ -82,13 +86,13 @@ Some of my casual created maps that had no theme or concept intended became a De
 
 It is important to NOT start with the details, because those need time. Even worse, you are probably not able to create a consistent style throughout the map. And worst, you tend to lose motivation early because you focus on things that willn not show much of a progress. Keep that in mind. 
 
-##Game mechanics
+## Game mechanics
 
 Every game has its unique set of rules. Consisting out of some constants like gravity, gamespeed, jumpheight and other stuff that creates the concept of the game itself. So unfortunatly you can't just make up your own rules in your world, you got to adapt to the existing gameplay and create layouts that utilize these constants. But there are a lot of other things that influence the gameplay. We have to take care of these entities, Which are weapons, different kinds of gamemodes, jumppads, teleports and a lot more. We will discover later what exactly can make or create a layout.  
 
 Sauerbraten's gameplay is very fast. It is hard to create a Battlefield-similar game experience. Instead, Sauerbraten is known for its need for quick reflexes. Having enough room is important. Talking about every single room or corridor within the level. Of course you can add smaller cable canals or vents, but they are to avoid as they are only for fooling around with other people. (Most of the times)
 
-##Building on the grid
+## Building on the grid
 
 As we covered the different cubesizes and their use before, you may wonder why exactly the size 5 and 6 should be used for layouts.
 
@@ -96,30 +100,31 @@ First of all: it is about mathematics. You can jump a specific height, run at a 
 
 Building on the grid also saves you WTR. You can see them in the lower left corner when editing. This is your how-laggy is-my-map o meter
  
-##The building-blocks of layouts 
+## The building-blocks of layouts 
 
 We just cover the things here, that a layout should only contain before getting into any further detail.
 
  Stairs/Ramps
  Platforms
  Jumppads
- Dropoffs (One-Way Platform to Platform)
+ Dropoffs (One-Way higher Platform to lower Platform)
  Teleports
- Obstacles or Stuff to hide behind (Pillars, Crates)
+ Obstacles or Stuff to hide behind (Pillars, Crates, be creative)
  Terrain
  Others: 
     - Ladders
     - Ropes 
 
-These aspects all define a map, and how it will play. Each factor and element of a map, is attributed to how the end product will function, therefore is an attribute of your map. Putting these elements together and make them play nice needs a bit of creativity. Combining the above will create either a labyrinth or open-area type of map.
+These aspects all define a map, and how it will play. Each factor and element of a map, is attributed to how the end product will function, therefore is an attribute of your map. Putting these elements together and make them play nice requires a bit of creativity.
+Decide which elements should belong to your maps. Think about if you involve terrain in your map or not, and which make sense according to your theme.
 
 
-##Go with the flow
+## Go with the flow
 
 This is something a guy called Redon (A great contributor to the community) taught me, and later on reread in a book called "the hows and whys of level design". When I was not quite sure about my first released map called Arabic I consulted Redon.
 He showed me that I should place things in the way where the player would walk or jump next. This sounded a bit unreasonable yet because I thought that I want to challenge the player a bit where he got to hide or place his foots. However, I found out very fast that having the ability to expect how the layout will go, will increase the fun in playing it. Getting stuck in crates or other nonsense will kill the fun in playing your hard work. Flow is what you call when you run and jump without bumping into walls. Make sure to playtest every bit of your layout whenever you add something to it!
 
-##Where to start?
+## Where to start?
 
 The worst thing how you could get started is to create yourself a border or box. Basically a /newmap will already give you a box-shaped place to edit so what should we do? First: You never know how big a map could possibly get. This is what a lot of beginners are not capable of: expanding when you need to. Has also a bit to do with immersion. If the player is able to see the borders (cut off mountains, boxshaped equally high walls to limit the world) they will notice how "unreal" or not beautiful the map is. But this is only secondary. Most newbies will happily work within the same border without ever emerging to greater layouts whenever it would fit. Again: it is not about how big it is, but think out of the box when you see how things could be done. Most try to work within a boxshaped map and do not dare to break through these walls, even if it would go with the gameflow. It takes some creativity to get started and there are several methods to start with nothing.
 
@@ -127,7 +132,7 @@ Your layout doesn't need to be necessarely bound to the theme. If you plan to bu
 Pyramids would possibly be a nice decoration for the background.
 
 
-##Purpose
+## Purpose
 
 We are going to excavate the "theme" topic just a for a minute. When you create a layout, think about the purpose of it.
 Is it a factory? powerplant? graveyard? Think how you can combine them and what kind of elements could fit in there
@@ -135,7 +140,7 @@ Think how you can replace some of the above noted building-blocks with theme ori
 A platform could turn into a scaffolding for an industrial theme. A jumppad could be indicated by some particles with an energy source nearby to indicate that its not just a jumppad for the sake of having a jumppad. You get what I mean. Thats something you can keep in mind before we burry the topic for a while again.
 
 
-#4. Audiovisuals
+# 4. Audiovisuals
 
 This chapter covers the aesthetic aspects of your work. This is actually the part where you create a world your player can believe in. That shows that it is not just an artificial world.
 This is also the part where we re-excavate the theme topic and dig into it a bit further.
@@ -163,16 +168,18 @@ I chose Terrain to be an extra chapter in Audiovisuals, to cover the more advanc
 ### What does terrain include?
 
 **Larger components:**
- - Caves
+ - Caves/Tunnels
  - Cliffs
  - Hills
  - Slopes
  - Ravine
+ - Voids
  
 **Smaller components:**
  - Boulders and Rocks
  - Stalagmites
  - Stalactites
+ - Pillars
 
 Unfortunately, terrain is rather tough to create. Even if you are a skilled mapper, it takes a few hours to bevel out a whole map. Because of this, most of the mappers decide to keep it simple. Which is why almost every terrain in Cube2 is eroded (flat). There are no pointy rocks or bolders, just flat terrain that nuzzels and wraps around the buildings. Our goal is to create appealing terrain that fits the theme.
 
@@ -180,7 +187,7 @@ Unfortunately, terrain is rather tough to create. Even if you are a skilled mapp
 
 **Egyptian/Desertlike/Orient**
 
-Sand can be rather wavy and create hills, but very smooth. If you know places like the petra, you know that there are places with very rough cliffs and pointy bolders lying around. Bolders can also stack up to form towers. There are also special forms of structures often associated with desert environments: arches made out of rocks and steep plateaus. Google for Mesa geology to get your inspiration started.
+Sand can be rather wavy and create hills, but very smooth. If you know places like the petra (see google images), you know that there are places with very rough cliffs and pointy bolders lying around, yet very smooth sand wrapping them at the bottom. Bolders can also stack up to form towers. There are also special forms of structures often associated with desert environments: arches made out of rocks and steep plateaus. Google for Mesa geology to get your inspiration started.
 
 Starred content with that theme: flagstone by Nieb
 
@@ -203,12 +210,16 @@ Beach environments are commonly combined with a grassland or jungle landscape. C
  - Jungle
  - Taiga
  - Ocean
+ - be creative
 
 
 ## Vegetation
 
 Everything thats green or resembles nature in any way goes here. 
 
+Unfortunately, you have to heavil rely on models (like in xenon) if you want to save a lot of vertices.
+
+Unlike trees, simple plants can be created by using cubes.
 
     * Architecture
     * Immersion
