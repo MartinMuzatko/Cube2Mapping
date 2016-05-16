@@ -3,17 +3,17 @@ Text Only Planning of Cube2Mapping Vol2
 -----------------------------
 
 
-1. Introduction
+[1. Introduction](#1-introduction)
     * What the heck is this all about?
     * What are the requirements?
 
 
-2. Octal Editor
+[2. Octal Editor](#2-octal-editor)
     * Get used to the cube
     * Different sizes
     * Know your limits - WTR
 
-3. Layout
+[3. Layout](#3-layout)
     * Game mechanics
     * Building on the grid
     * The building blocks of layouts
@@ -21,7 +21,7 @@ Text Only Planning of Cube2Mapping Vol2
     * Where to start?
     * Purpose
 
-4. Audiovisuals
+[4. Audiovisuals](#4-audiovisuals)
     * Architecture
     * Immersion
         * Theme - The look and feel
