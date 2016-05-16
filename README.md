@@ -45,7 +45,7 @@ What makes these games so popular is its way of creating worlds together. All in
 
 This book will cover all the little secrets that you may wonder about: How can a few small additions greatly add to the world. How come that some levels are fun, while others are not fun to play? 
 
-To get an idea how you are doing, feel free to ask Quadropolis.us. It is a nice platform to rate and discuss maps.
+To get an idea how you are doing, feel free to ask Quadropolis.us. It is a nice (but inactive nowadays - it's been 10 years since the release of Sauerbraten) platform to rate and discuss maps.
 
 ## What are the requirements?
 
@@ -94,12 +94,24 @@ Every game has its unique set of rules. You can change some but some are part of
 
 Sauerbraten's gameplay is very fast. It is hard to create a Battlefield-similar game experience. Instead, Sauerbraten is known for its need for quick reflexes. Having enough room is important. You need enough space to navigate around on a map. If you get stuck, that is a fun killer. You should avoid building gimmicks like like cable canals or vents. These are typical for being long, boring and too hard to navigate. The map nucleus is a great example how to implement vents:
 
+![Nuclues by Snowy](http://i.imgur.com/NRrxJR2.jpg)
+
+In this example, Snowy (the author of this map) added a vent to quickly get from one level to another one. It is a one-way layout element. You can't hide in there since there is no second intersection or hidden canal. These kind of elements of a layout should come last and only added with care.
 
 ## Building on the grid
 
 As we covered the different cubesizes and their use before, you may wonder why exactly the size 5 and 6 should be used for layouts.
 
-First of all: it is about mathematics. You can jump a specific height, run at a specific velocity, etc. I have no idea if this was actually on purpose by the creator, but it seems to be that creating gaps with a 5-sized cube is just about the right distance a player can safely jump. Creating other layout elements such as stairs, just go right with this size. This doesn't mean that you have to create every single pathway just a cube wide, having variation is very important. To sum up this chapter: building on the grid saves you time to get a proper layout working without caring too much about the detail. You do not want to throw away a fully detailed and texturized work, so make sure that the layout works before getting on that. The same can be applied on webdesign, where you sketch the layout before you get ready for design. Also animations, where you draw a few examples based on the content, before you fully animate and paint the scenes.
+**First of all:** it is about mathematics. You can jump a specific height, run at a specific velocity, etc. I have no idea if this was actually on purpose by the creator, but it seems to be that creating gaps with a 6-sized cube is just about the right distance a player can safely jump.
+
+Of course, if the other platform is lower, you can extend that distance.
+
+![](http://i.imgur.com/yfyMJJo.jpg)
+
+In the example above, the two platforms are 8 cubes (size 4) apart, with a height difference of one size-4 cube.
+
+
+Creating other layout elements such as stairs, just go right with this size. This doesn't mean that you have to create every single pathway just a cube wide, having variation is very important. To sum up this chapter: building on the grid saves you time to get a proper layout working without caring too much about the detail. You do not want to throw away a fully detailed and texturized work, so make sure that the layout works before getting on that. The same can be applied on webdesign, where you sketch the layout before you get ready for design. Also animations, where you draw a few examples based on the content, before you fully animate and paint the scenes.
 
 Building on the grid also saves you WTR. You can see them in the lower left corner when editing. This is your how-laggy is-my-map o meter
  
@@ -125,17 +137,33 @@ Decide which elements should belong to your maps. Think about if you involve ter
 ## Go with the flow
 
 This is something a guy called Redon (A great contributor to the community) taught me, and later on reread in a book called "the hows and whys of level design". When I was not quite sure about my first released map called Arabic I consulted Redon.
-He showed me that I should place things in the way where the player would walk or jump next. This sounded a bit unreasonable yet because I thought that I want to challenge the player a bit where he got to hide or place his foots. However, I found out very fast that having the ability to expect how the layout will go, will increase the fun in playing it. Getting stuck in crates or other nonsense will kill the fun in playing your hard work. Flow is what you call when you run and jump without bumping into walls. Make sure to playtest every bit of your layout whenever you add something to it!
+He showed me that I should place things in the way where the player would walk or jump next. This sounded a bit unreasonable yet because I thought that I want to challenge the player a bit where he got to hide or place his foots. However, I found out very quickly that having the ability to expect how the layout will go, will increase the fun in playing it. Getting stuck in crates or other nonsense will kill the fun in playing your hard work. Flow is what you call when you run and jump without bumping into walls. Or how I like to put it: always playtest your maps like a wild jumping monkey on drugs. Whenever you bump into a wall - remove it or change the path before the wall. Don't expect the player to smoothly do a 180° degree jump when going down your stairs.
+
+Make sure to playtest every bit of your layout whenever you add something to it!
 
 ## Breaking out
 
-The worst thing how you could get started is to create yourself a border or box. Basically a /newmap will already give you a box-shaped place to edit so what should we do? First: You never know how big a map could possibly get. This is what a lot of beginners are not capable of: expanding when you need to. This has also a bit to do with immersion. If the player is able to see the borders (cut off mountains, boxshaped equally high walls to limit the world) they will notice how "unreal" or the world is they are set into. They will recognize your map not as world but as map. So what are we? Some kind of illusionist? Well yes, we'll get to that topic later in [immersion](#immersion). Most newbies will happily work within the same border without ever emerging to greater layouts whenever it would fit. 
+The worst thing how you could get started is to create yourself a border or box. Basically a /newmap will already give you a box-shaped place to edit so what should we do? 
 
-Again: it is not about how big it is, but think out of the box when you see how things could be done. Most try to work within a boxshaped map and do not dare to break through these walls, even if it would go with the gameflow. It takes some creativity to get started and there are several methods to start with nothing.
+You never know how big a map could possibly get. This is what a lot of beginners are not capable of: expanding when you need to. This has also a bit to do with immersion. If the player is able to see the borders (cut off mountains, boxshaped equally high walls to limit the world) they will notice how "unreal" or the world is they are set into. They will recognize your map not as world but as map. So what are we? Some kind of illusionist? Well yes, we'll get to that topic later in [immersion](#immersion). Most newbies will happily work within the same border without ever emerging to greater layouts whenever it would fit. 
+
+Take this map as example:
+
+![](http://i.imgur.com/L68Clue.jpg)
+
+You can see what the playable part of the map is. But then we decided to break out, adding both a new opportunity and great detail to the map:
+
+![](http://i.imgur.com/O5BdHbc.jpg)
+
+The lower part of this map isn't even playable! We just added it as a nice detail. We call that surroundings - the things that immerse the player into the tiny playable area he has. Of course you die if you fall down. There are a few more lessons hidden in the image above:
+Only the crane and the scifi textures plus the railroads in the background and the water tower make this look like it comes from the industrial age. It could be also a castles wall with front gate and towers. Not every part of the map has to be playable. Actually, a tiny fraction of your map should be playable, the rest should be immersion. Of course, you might think having so much area not playable is a bit a waste of editing time, if you can't explore it. However, it may break the layout if we allow the player to explore the vast area of the desert, when we want him to stay up there where the action is. Keep that in mind.
+
+Again: it is not about how big it is, but think out of the box when you see how things could be done. Most try to work within a boxshaped map and do not dare to break through these walls, while uneven walls are the most pleasent to play with. Even if it would go with the gameflow. It takes some creativity to get started and there are several methods to start with nothing.
 
 Your layout doesn't need to be necessarely bound to the theme. If you plan to build, for example an egypt map, think about how it would fit in the map. Especially clichees for a specific theme (like pyramids for egypt maps), aren't quiet playable standalone. Even though they help you to define the theme along with textures. Which is why we choose to think about the theme later, even if there are some typical elements for specific themes. It is good to know them but right now they are not helping us to create something playable.
 Pyramids would possibly be a nice decoration for the background.
 
+It is easier to fix a theme based on a layout, than to fix a layout based on a theme.
 
 ## Purpose
 
