@@ -80,17 +80,20 @@ Another few important metrics:
 
 # 3. Layout
 
-Creating a layout is the first step for beginning a project. You maybe have already an elaborate idea in beforehand about the theme, look or feel of the map. But this is not mandatory, most of the maps need only a tin impulse of an idea to get started.
+Creating a layout is the first step for beginning a project. You maybe have already an elaborate idea in beforehand about the theme, look or feel of the map. But this is not mandatory, most of the maps need only a little impulse of an idea to get started.
 
-Some of my casual created maps that had no theme or concept intended became a Deathmatch map. It is very flexible, depending on how the map works without any details or textures. We will go through the creation step by step. We have to know a few little things before we get started.
+The most casual maps I make are the best. A theme can restrict, so I rather add the theme later on. Layouts are so flexible that you can make them use any theme. Of course, while medieval castles require to have big walls and space stations to float in midair and have certain elements like antennas or for the medieval example: towers, terrain etc. You will see that this is not important to the layout. We will go through the creation step by step. We have to know a few little things before we get started.
 
-It is important to NOT start with the details, because those need time. Even worse, you are probably not able to create a consistent style throughout the map. And worst, you tend to lose motivation early because you focus on things that willn not show much of a progress. Keep that in mind. 
+It is important to NOT start with the details, because those need time and consideration. Even worse, you are probably not able to create a consistent style throughout the map. And worst, you tend to lose motivation early because you focus on things that will not show much of a progress. Keep that in mind. Start with the biggest blocks possible required for the task at hand. Before we begin with our first playable map, there are a few bits of information to consider in the chapters below.
 
 ## Game mechanics
 
-Every game has its unique set of rules. Consisting out of some constants like gravity, gamespeed, jumpheight and other stuff that creates the concept of the game itself. So unfortunatly you can't just make up your own rules in your world, you got to adapt to the existing gameplay and create layouts that utilize these constants. But there are a lot of other things that influence the gameplay. We have to take care of these entities, Which are weapons, different kinds of gamemodes, jumppads, teleports and a lot more. We will discover later what exactly can make or create a layout.  
+Every game has its unique set of rules. You can change some but some are part of the core. These rules consist out of some constants like gravity, gamespeed, jumpheight and other stuff that creates the concept of the game itself. So unfortunatly you can't just make up your own rules in your world, you got to adapt to the existing gameplay and create layouts that utilize these constants. In Sauerbraten, we are even more limited, because we can't change the weapons, the gamemode, the gravitation except for jumppads. But there are a lot of other things that influence the gameplay which we have control about. How a layout plays, is defined how you strategically place platforms, ways to get to certain platforms. But also weapons, teleports, jumppads etc. We will discover later what exactly can make or break a layout.  
 
-Sauerbraten's gameplay is very fast. It is hard to create a Battlefield-similar game experience. Instead, Sauerbraten is known for its need for quick reflexes. Having enough room is important. Talking about every single room or corridor within the level. Of course you can add smaller cable canals or vents, but they are to avoid as they are only for fooling around with other people. (Most of the times)
+## Small parts of a layout
+
+Sauerbraten's gameplay is very fast. It is hard to create a Battlefield-similar game experience. Instead, Sauerbraten is known for its need for quick reflexes. Having enough room is important. You need enough space to navigate around on a map. If you get stuck, that is a fun killer. You should avoid building gimmicks like like cable canals or vents. These are typical for being long, boring and too hard to navigate. The map nucleus is a great example how to implement vents:
+
 
 ## Building on the grid
 
