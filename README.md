@@ -1,4 +1,4 @@
-Text Only Planning of Cube2Mapping Vol2
+Cube2Mapping - A guide to mastering immersive level design
 
 -----------------------------
 
@@ -8,10 +8,9 @@ Text Only Planning of Cube2Mapping Vol2
     * What are the requirements?
 
 
-2. [Octal Editor](#2-octal-editor)
+2. [Geometry](#2-geometry)
     * Get used to the cube
     * Different sizes
-    * Know your limits - WTR
 
 3. [Layout](#3-layout)
     * Game mechanics
@@ -33,44 +32,43 @@ Text Only Planning of Cube2Mapping Vol2
 
 -----------------------------
 
-#1. Introduction
+# 1. Introduction
 
-## What the heck is this all about?
+## What is this all about?
 
-This book/guide/tutorial is dedicated to turning you into a professional level designer and showing you a lot of things to take care about when creating your first levels. This guide is also geared towards professionals to learn something new to extend your horizon.  
+This book is dedicated to turning you into a professional level designer and showing you a lot of things (opportunities) to take care of when creating your first worlds. This guide is also geared towards professionals to learn something new to extend your horizon. Things you may have not thought about before.
 
-This guide is dedicated to simple Level Design games, like Cube2, Minecraft or similar. Creating something awesome with just a few easy-to-grasp tools is the goal here.
+The focus relies on the concepts needed to build aesthetically pleasing levels, not the basics of how to create cubes and modify them.
+
+This guide is dedicated to voxel-based 3D Level Design games, like Cube2, Minecraft or similar. Creating something awesome with just a few easy-to-grasp tools is the goal here. 
 
 What makes these games so popular is its way of creating worlds together. All information you find in this guide may be applied on other games similar to Cube2 or Minecraft. In this guide I mainly focus on Cube2.
 
 This book will cover all the little secrets that you may wonder about: How can a few small additions greatly add to the world. How come that some levels are fun, while others are not fun to play? 
 
-To get an idea how you are doing, feel free to ask Quadropolis.us. It is a nice (but inactive nowadays - it's been 10 years since the release of Sauerbraten) platform to rate and discuss maps.
+Do you need help? Create an [issue](https://github.com/MartinMuzatko/Cube2Mapping/issues) or [email](mailto:martin@happy-css.com) me.
 
-## What are the requirements?
-
-I will not tell you the very basics how to work with Cube2, this guide is for intermediate to expert creators. You should know your entities, how to modify them. How to texturize cubes and the different cubesizes. In the first chapter I will explain a few not so well known details about the cube. You will also need a lot of patience, as you need to get a feeling for whats good and whats not good to play.
-
-# 2. Octal Editor 
+# 2. Geometry
 
 ## Get used to the cube
 
 You should grasp the basic concept of editing before you move on with the advanced stuff. There is not much needed to create an appealing deathmatch map. At least you do not have to be the greatest cube-bender of all times to make a map flowy. Simple blocks for platforms and stairs are often enough for a deathmatch map, to be fun to play.
 
-Having an idea about the different entities in Cube2 is also important.
-
 ## Different sizes - use them
 
-This belongs partially to chapter three - Layout.
 There are different cubesizes which you can use for different tasks.
+Each cubesize increases in size by a factor of
+* **two** in height or width
+* **four** in area
+* **eight** in volume
 
 - 0
-- 1
-- 2 - Details (Rims, Planks, etc)
+- 1 - Small details
+- 2 - Details (Rims, Planks, Railings)
 - 3 - Architecture
 - 4 - Layout, Terrain
 - 5 - Layout, Terrain
-- 6
+- 6 - Tool to copy entire parts
 
 Another few important metrics:
 
@@ -78,9 +76,11 @@ Another few important metrics:
 - 5 - rifle trickjump height
 - 6.5 - Maximum jump range
 
+This depends a lot on the core game mechanics that define how high you can jump, how fast you can run and how quickly you fall. Just to name a few. These define how you can lay out your level building blocks, to be pleasently reachable.
+
 # 3. Layout
 
-Creating a layout is the first step for beginning a project. You maybe have already an elaborate idea in beforehand about the theme, look or feel of the map. But this is not mandatory, most of the maps need only a little impulse of an idea to get started.
+Creating a layout is the first step for beginning a project. You maybe have already an elaborate idea in beforehand about the theme, look or feel of the map. But this is not mandatory, design and layout may or may not be coupled. Genericly speaking: Terrain does not have to be a desert, a grass landscape or snowed in, in order to be a hill or a rock. But the details of the theme define
 
 The most casual maps I make are the best. A theme can restrict, so I rather add the theme later on. Layouts are so flexible that you can make them use any theme. Of course, while medieval castles require to have big walls and space stations to float in midair and have certain elements like antennas or for the medieval example: towers, terrain etc. You will see that this is not important to the layout. We will go through the creation step by step. We have to know a few little things before we get started.
 
@@ -90,7 +90,7 @@ It is important to NOT start with the details, because those need time and consi
 
 Every game has its unique set of rules. You can change some but some are part of the core. These rules consist out of some constants like gravity, gamespeed, jumpheight and other stuff that creates the concept of the game itself. So unfortunatly you can't just make up your own rules in your world, you got to adapt to the existing gameplay and create layouts that utilize these constants. In Sauerbraten, we are even more limited, because we can't change the weapons, the gamemode, the gravitation except for jumppads. But there are a lot of other things that influence the gameplay which we have control about. How a layout plays, is defined how you strategically place platforms, ways to get to certain platforms. But also weapons, teleports, jumppads etc. We will discover later what exactly can make or break a layout.  
 
-## Small parts of a layout
+## Enough Space
 
 Sauerbraten's gameplay is very fast. It is hard to create a Battlefield-similar game experience. Instead, Sauerbraten is known for its need for quick reflexes. Having enough room is important. You need enough space to navigate around on a map. If you get stuck, that is a fun killer. You should avoid building gimmicks like like cable canals or vents. These are typical for being long, boring and too hard to navigate. The map nucleus is a great example how to implement vents:
 
@@ -113,22 +113,21 @@ In the example above, the two platforms are 8 cubes (size 4) apart, with a heigh
 
 Creating other layout elements such as stairs, just go right with this size. This doesn't mean that you have to create every single pathway just a cube wide, having variation is very important. To sum up this chapter: building on the grid saves you time to get a proper layout working without caring too much about the detail. You do not want to throw away a fully detailed and texturized work, so make sure that the layout works before getting on that. The same can be applied on webdesign, where you sketch the layout before you get ready for design. Also animations, where you draw a few examples based on the content, before you fully animate and paint the scenes.
 
-Building on the grid also saves you WTR. You can see them in the lower left corner when editing. This is your how-laggy is-my-map o meter
+Building on the grid also saves you polygons - which saves you performance. You can see them in the lower left corner when editing. This is your how-laggy-is-my-map meter
  
 ## The building-blocks of layouts 
 
 We just cover the things here, that a layout should only contain before getting into any further detail.
 
- Stairs/Ramps
- Platforms
- Jumppads
- Dropoffs (One-Way higher Platform to lower Platform)
- Teleports
- Obstacles or Stuff to hide behind (Pillars, Crates, be creative)
- Terrain
- Others: 
-    - Ladders
-    - Ropes 
+ - Stairs/Ramps
+ - Platforms
+ - Jumppads
+ - Dropoffs (One-Way higher Platform to lower Platform)
+ - Teleports
+ - Obstacles or Stuff to hide behind (Pillars, Crates, be creative)
+ - Terrain
+ - Ladders
+ - Ropes 
 
 These aspects all define a map, and how it will play. Each factor and element of a map, is attributed to how the end product will function, therefore is an attribute of your map. Putting these elements together and make them play nice requires a bit of creativity.
 Decide which elements should belong to your maps. Think about if you involve terrain in your map or not, and which make sense according to your theme.
